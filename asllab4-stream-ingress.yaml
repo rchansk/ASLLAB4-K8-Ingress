@@ -14,7 +14,7 @@ spec:
     http:
       paths:
       - path: /streaming/(.*)
-        pathType: Prefix
+        pathType: ImplementationSpecific
         backend:
           service:
             name: streaming-svc
