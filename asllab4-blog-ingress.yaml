@@ -13,7 +13,7 @@ spec:
   - # host: "http://<your-domain.com>"
     http:
       paths:
-      - path: /blogs/(.*)
+      - path: /
         pathType: Prefix
         backend:
           service:
