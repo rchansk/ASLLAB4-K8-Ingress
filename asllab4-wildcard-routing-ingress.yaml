@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: wildcard-ingress
-  namespace: testing
+  namespace: ingress-testing
   labels:
     app: routing-types
     type: wildcard-based
